@@ -1,0 +1,11 @@
+{
+    "name": "Calculator",
+    "version": "0.1.0",
+    "title": "Calculator",
+    "author": "evospace",
+    "evospace_version": "0.20.1",
+    "dependencies": [
+        "Core"
+    ],
+    "description": "A pocket calculator on the control bar: type an expression, keep the history"
+}
