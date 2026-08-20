@@ -1,9 +1,0 @@
-{
-    "name": "SimpleElectricity",
-    "version": "0.20",
-    "title": "Simple Electricity",
-    "author": "evospace",
-    "evospace_version": "0.20",
-    "dependencies": ["Vanilla>=0.20"],
-    "description": "Simple electricity without tiers and resistance"
-}

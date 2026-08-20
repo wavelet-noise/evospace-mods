@@ -1,9 +1,0 @@
-{
-    "name": "EXBIO_Plains",
-    "version": "0.1",
-    "title": "EXBIO Plains",
-    "author": "evospace",
-    "evospace_version": "0.19.1",
-    "dependencies": [],
-    "description": "Infinite plains generator"
-}

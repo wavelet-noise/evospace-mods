@@ -18,25 +18,25 @@ function tps_mod.post_init()
    local es = EventSystem.get()
    es:sub(defines.events.on_player_spawn, function(_ctx)
       local function tps_button(tps)
-         return ModButton {
+         return ui.Button {
             on_click = function()
                game.tick_rate = tps
             end,
-            ModTextBlock(tostring(tps)),
+            ui.Text(tostring(tps)),
          }
       end
 
-      local win = ModWindow {
+      local win = ui.Window {
          title = "TPS Control",
          anchor_x = "left",
          anchor_y = "top",
          offset_x = 150,
          offset_y = 0,
-         ModBorder {
+         ui.Border {
             padding = 12,
-            ModVerticalBox {
-               ModTextBlock "Target TPS",
-               ModHorizontalBox {
+            ui.VBox {
+               ui.Text "Target TPS",
+               ui.HBox {
                   tps_button(20),
                   tps_button(100),
                   tps_button(400),

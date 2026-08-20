@@ -1,9 +1,0 @@
-{
-    "name": "BasicTestsMod",
-    "version": "0.1",
-    "title": "Basic Tests Mod",
-    "author": "evospace",
-    "evospace_version": "0.20.0",
-    "dependencies": [],
-    "description": "Some basic lua api tests"
-}

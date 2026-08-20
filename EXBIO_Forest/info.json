@@ -1,9 +1,0 @@
-{
-    "name": "EXBIO_Forest",
-    "version": "0.1",
-    "title": "EXBIO Forest",
-    "author": "evospace",
-    "evospace_version": "0.19.1",
-    "dependencies": [],
-    "description": "Infinite forest generator"
-}
